@@ -36,15 +36,15 @@ setup(
     # run pandoc --from=markdown --to=rst --output=README.rst README.md
     long_description=open("README.rst").read(),
     install_requires=[
+        "numpy",
+        "pandas",
+        "scipy",
         "six",
         "statsmodels",
         "brewer2mpl",
         "matplotlib",
-        "scipy",
         "patsy>=0.4",
-        "pandas",
         "cycler",
-        "numpy"
     ],
     classifiers=[
         'Intended Audience :: Science/Research',
